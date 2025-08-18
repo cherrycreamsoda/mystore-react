@@ -1,0 +1,36 @@
+.hero {
+  height: 100vh;
+  /* Removed background image from hero, now using parent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 120px;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 0 2rem;
+}
+
+.heroTitle {
+  font-size: clamp(4rem, 12vw, 8rem);
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.1;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 100px;
+  }
+
+  .heroTitle {
+    font-size: clamp(3rem, 10vw, 5rem);
+  }
+}

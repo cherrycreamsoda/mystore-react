@@ -1,0 +1,35 @@
+/* Made shop section completely glassmorphic without overlay */
+.shopSection {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 8px;
+  min-height: 50vh;
+  position: relative;
+}
+
+/* Simplified grid layout to prevent items poking out */
+.shopGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 8px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+}
+
+/* Removed complex grid positioning that was causing layout issues */
+
+@media (max-width: 768px) {
+  .shopSection {
+    padding: 8px;
+  }
+
+  .shopGrid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 8px;
+    padding: 10px;
+  }
+}

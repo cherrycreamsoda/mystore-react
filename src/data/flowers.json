@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Cosmos Premium Collection",
+    "price": 45.99,
+    "originalPrice": 59.99,
+    "discount": 23,
+    "image": "/assets/cosmos-flower-1712177_1280.jpg",
+    "category": "cosmos",
+    "rating": 5,
+    "reviews": 124
+  },
+  {
+    "id": 2,
+    "name": "Dahlia Elegant Arrangement",
+    "price": 38.5,
+    "originalPrice": 49.99,
+    "discount": 19,
+    "image": "/assets/dahlia-8172522_1280.jpg",
+    "category": "dahlias",
+    "rating": 4.5,
+    "reviews": 87
+  },
+  {
+    "id": 3,
+    "name": "Chrysanthemum Bright Bundle",
+    "price": 29.99,
+    "originalPrice": 42.99,
+    "discount": 30,
+    "image": "/assets/autumn-8318691_1280.png",
+    "category": "chrysanthemums",
+    "rating": 4,
+    "reviews": 156
+  },
+  {
+    "id": 4,
+    "name": "African Daisy Luxury Set",
+    "price": 65.0,
+    "originalPrice": 89.99,
+    "discount": 27,
+    "image": "/assets/flower-8000994_1280.jpg",
+    "category": "daisies",
+    "rating": 5,
+    "reviews": 203
+  }
+]
